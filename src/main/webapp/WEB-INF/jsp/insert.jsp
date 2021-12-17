@@ -54,8 +54,7 @@
 						<input type="text" value="0" class="inputtext" id="textbox">
 						<button class="button" id="up">＋</button>
 					</div>
-				</div><script src="main.js">
-			</td>
+				</div><script src="main.js">			</td>
 		</tr>
 	<%-- </table>--%>
 	<button type="submit" class="btn btn-primary">これで応募</button>
