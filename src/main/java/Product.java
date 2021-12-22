@@ -8,27 +8,42 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class home
+ * Servlet implementation class Product
  */
-@WebServlet("/home")
-public class home extends HttpServlet {
+@WebServlet("/Product")
+public class Product extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public home() {
-        super();
+	private int id;
+	private String name;
+	private int price;public int getId() 
+	{
+		return id;
+		}	
+		public String getName() {
+		return name;
+		}
+		public int getPrice() {
+		return price;
+		}public void setId(int id) 
+		{
+			this.id = id;
+		}public void setName(String name) 
+		{
+		this.name = name;
+		}public void setPrice(int price) {this.price = price;
+		}
+    //public Product() {
+        //super();
         // TODO Auto-generated constructor stub
-    }
+    
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-		
-		
 	}
 
 	/**
