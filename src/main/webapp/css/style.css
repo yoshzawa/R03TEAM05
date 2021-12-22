@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.psi{
+	text-align:center;
+	position: relative;
+	top:180px;
+}
+.area{
+	text-align:center;
+	position: relative;
+	top:550px;
+ }
+
+.button{
+	background: #4682b4;
+	width: 300px;
+	height: 150px;
+	padding: 20px;
+	margin-bottom:50px;
+	border: black 2px solid;
+	text-decoration: nome;
+	font-size: 64px;
+	display: inline-block;
+}
